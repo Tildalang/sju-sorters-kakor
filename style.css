@@ -10,6 +10,9 @@ body {
     font-family: "DM Sans", Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    margin: 0;
+/* Skapar en vinröd inramning högst upp på webbsidan */
+    border-top: 80px solid #963F52;
 }
 /* Headerns färger, rundade hörn och storlek */
 header {
@@ -24,7 +27,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px 90px 20px;
+    margin: 20px 90px 20px;
 }
 /* Centrerar och förstorar webbplatsens huvudrubrik */
 header h1 {
@@ -170,13 +173,14 @@ main article > p:last-child a:focus-visible {
     padding: 30px;
     margin: 20px 0px 40px;
 }
+/* Sidfotens utseende och placering */
 footer {
     background-color: #963F52;
     color: #FFFBEE;
     text-align: center;
     padding: 8px 20px;
-    border-radius: 20px;
-    margin: 20px 90px 40px;
+    border-radius: 0;
+    margin: 20px 0 0;
     display: flex;
     justify-content: center;
 }
